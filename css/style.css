@@ -1,0 +1,44 @@
+:root {
+    --cor1: #8D7B68;
+    --cor2: #A4907C;
+    --cor3: #C8B6A6;
+    --cor4: #e9e2fe;
+    --cor5: #fff;
+    --cor6: #000;
+}
+
+.bg-brown{
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
+
+.bg-brown a{
+    color: var(--cor5);
+}
+
+.text-light-brown{
+    color: var(--cor4);
+    border: 1px solid var(--cor5);
+}
+
+.header{
+    min-height: 70vh;
+    background-image: url(https://picsum.photos/1200/500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-brown{
+    color: var(--cor1);
+}
+
+.text-justify{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.w-70{
+    width: 70%;
+    margin: 0 auto;
+}
